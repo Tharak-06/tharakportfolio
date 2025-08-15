@@ -1,0 +1,181 @@
+/* PROFESSIONAL COLOR SCHEME OPTIONS */
+
+/* Option 1: Modern Blue (Tech Professional) */
+:root {
+    --bg-color: #0f1419;           /* Deep dark blue */
+    --second-bg-color: #1a2332;    /* Slate blue */
+    --main-color: #64ffda;          /* Cyan accent */
+    --secondary-accent: #82b1ff;   /* Soft blue */
+    --white-color: #ffffff;
+    --text-secondary: #a0aec0;     /* Muted text */
+}
+
+/* Option 2: Elegant Purple (Creative Professional) */
+:root {
+    --bg-color: #0d1117;           /* GitHub-like dark */
+    --second-bg-color: #21262d;    /* Charcoal */
+    --main-color: #bb86fc;          /* Purple accent */
+    --secondary-accent: #03dac6;   /* Teal */
+    --white-color: #ffffff;
+    --text-secondary: #8b949e;
+}
+
+/* Option 3: Sophisticated Orange (Warm Professional) */
+:root {
+    --bg-color: #1a1a1a;           /* True black */
+    --second-bg-color: #2d2d2d;    /* Dark gray */
+    --main-color: #ff6b35;          /* Professional orange */
+    --secondary-accent: #f7931e;   /* Golden orange */
+    --white-color: #ffffff;
+    --text-secondary: #cccccc;
+}
+
+/* Option 4: Minimalist Blue-Gray (Ultra Professional) */
+:root {
+    --bg-color: #0a0e27;           /* Navy */
+    --second-bg-color: #1e2749;    /* Steel blue */
+    --main-color: #00d4ff;          /* Sky blue */
+    --secondary-accent: #7c3aed;   /* Purple highlight */
+    --white-color: #ffffff;
+    --text-secondary: #94a3b8;
+}
+
+/* Option 5: Keep Current but Refined */
+:root {
+    --bg-color: #1a1f2e;           /* Darker, more professional */
+    --second-bg-color: #2a3441;    /* Warmer gray */
+    --main-color: #00ff88;          /* Softer green */
+    --secondary-accent: #00d4aa;   /* Complementary teal */
+    --white-color: #ffffff;
+    --text-secondary: #b0b8c1;
+}
+
+/* Option 6: Sunset Gradient (Warm & Inviting) */
+:root {
+    --bg-color: #0f0f23;           /* Deep purple-black */
+    --second-bg-color: #1a1a2e;    /* Dark purple */
+    --main-color: #ff6b6b;          /* Coral red */
+    --secondary-accent: #ffd93d;   /* Sunny yellow */
+    --white-color: #ffffff;
+    --text-secondary: #c9c9c9;
+}
+
+/* Option 7: Forest Night (Natural & Calming) */
+:root {
+    --bg-color: #0c1618;           /* Forest black */
+    --second-bg-color: #1b2a2f;    /* Deep forest */
+    --main-color: #4ecdc4;          /* Turquoise */
+    --secondary-accent: #96ceb4;   /* Mint green */
+    --white-color: #ffffff;
+    --text-secondary: #a8b2b9;
+}
+
+/* Option 8: Royal Gold (Luxury & Elegance) */
+:root {
+    --bg-color: #0a0a0a;           /* True black */
+    --second-bg-color: #1c1c1c;    /* Charcoal */
+    --main-color: #ffd700;          /* Gold */
+    --secondary-accent: #ff8c00;   /* Dark orange */
+    --white-color: #ffffff;
+    --text-secondary: #d4d4d4;
+}
+
+/* Option 9: Cyber Pink (Modern & Edgy) */
+:root {
+    --bg-color: #0d1421;           /* Deep navy */
+    --second-bg-color: #1a2332;    /* Steel blue */
+    --main-color: #ff0080;          /* Hot pink */
+    --secondary-accent: #00ffff;   /* Cyan */
+    --white-color: #ffffff;
+    --text-secondary: #8892b0;
+}
+
+/* Option 10: Monochrome Blue (Clean & Professional) */
+:root {
+    --bg-color: #0a0e1a;           /* Midnight blue */
+    --second-bg-color: #1e2a3a;    /* Dark blue */
+    --main-color: #2196f3;          /* Material blue */
+    --secondary-accent: #03a9f4;   /* Light blue */
+    --white-color: #ffffff;
+    --text-secondary: #90a4ae;
+}
+
+/* Option 11: Emerald Night (Sophisticated Green) */
+:root {
+    --bg-color: #0f1419;           /* Dark green-black */
+    --second-bg-color: #1a2b23;    /* Forest green */
+    --main-color: #10b981;          /* Emerald */
+    --secondary-accent: #34d399;   /* Light emerald */
+    --white-color: #ffffff;
+    --text-secondary: #9ca3af;
+}
+
+/* Option 12: Violet Dreams (Creative & Artistic) */
+:root {
+    --bg-color: #1a0933;           /* Deep violet */
+    --second-bg-color: #2d1b4e;    /* Purple */
+    --main-color: #a855f7;          /* Violet */
+    --secondary-accent: #ec4899;   /* Pink */
+    --white-color: #ffffff;
+    --text-secondary: #c4b5fd;
+}
+
+/* Option 13: Arctic Blue (Cool & Modern) */
+:root {
+    --bg-color: #0c1929;           /* Arctic night */
+    --second-bg-color: #1e3a52;    /* Ice blue */
+    --main-color: #38bdf8;          /* Sky blue */
+    --secondary-accent: #06b6d4;   /* Cyan blue */
+    --white-color: #ffffff;
+    --text-secondary: #94a3b8;
+}
+
+/* Option 14: Crimson Edge (Bold & Powerful) */
+:root {
+    --bg-color: #1a0a0a;           /* Dark red-black */
+    --second-bg-color: #2d1414;    /* Deep red */
+    --main-color: #ef4444;          /* Red */
+    --secondary-accent: #f97316;   /* Orange-red */
+    --white-color: #ffffff;
+    --text-secondary: #d1d5db;
+}
+
+/* Option 15: Moonlight Silver (Elegant & Minimal) */
+:root {
+    --bg-color: #0f0f0f;           /* Almost black */
+    --second-bg-color: #1f1f1f;    /* Dark gray */
+    --main-color: #e5e7eb;          /* Silver */
+    --secondary-accent: #9ca3af;   /* Gray */
+    --white-color: #ffffff;
+    --text-secondary: #6b7280;
+}
+
+/* Option 16: Neon Lime (Energetic & Fresh) */
+:root {
+    --bg-color: #0a0f0a;           /* Dark green-black */
+    --second-bg-color: #1a2b1a;    /* Forest */
+    --main-color: #84cc16;          /* Lime green */
+    --secondary-accent: #eab308;   /* Yellow */
+    --white-color: #ffffff;
+    --text-secondary: #a3a3a3;
+}
+
+/* Option 17: Deep Ocean (Serene & Professional) */
+:root {
+    --bg-color: #051f2e;           /* Deep ocean */
+    --second-bg-color: #1a4b66;    /* Ocean blue */
+    --main-color: #0ea5e9;          /* Ocean cyan */
+    --secondary-accent: #06b6d4;   /* Bright cyan */
+    --white-color: #ffffff;
+    --text-secondary: #bae6fd;
+}
+
+/* Option 18: Autumn Warmth (Cozy & Inviting) */
+:root {
+    --bg-color: #1a0f0a;           /* Dark brown */
+    --second-bg-color: #2d1b14;    /* Warm brown */
+    --main-color: #f59e0b;          /* Amber */
+    --secondary-accent: #dc2626;   /* Red */
+    --white-color: #ffffff;
+    --text-secondary: #d6d3d1;
+}

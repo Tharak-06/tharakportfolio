@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tharaka | Portfolio</title>
+    <meta name="description" content="Motivated UX/UI Designer, Front-End Developer, and Web Developer with expertise in HTML, CSS, JavaScript, and responsive design. Proficient in Figma with experience in creating wireframes and user-centered interfaces.">
+    <meta name="keywords" content="UX/UI Designer, Front-End Developer, Web Developer, Content Editor, Figma, HTML, CSS, JavaScript, Responsive Design">
+    <meta name="author" content="Reddi Tharaka Ratna">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2300d2ff'/><stop offset='100%25' style='stop-color:%233a7bd5'/></linearGradient></defs><circle cx='16' cy='16' r='15' fill='url(%23g)' stroke='white' stroke-width='1'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>T</text></svg>">
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2300d2ff'/><stop offset='100%25' style='stop-color:%233a7bd5'/></linearGradient></defs><circle cx='16' cy='16' r='15' fill='url(%23g)' stroke='white' stroke-width='1'/><text x='16' y='22' font-family='Arial' font-size='18' font-weight='bold' text-anchor='middle' fill='white'>T</text></svg>">
+    
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header --> 
+<header class="active"> 
+    <a href="#" class="logo">
+        <span class="logo-initial">T</span>
+        <span class="logo-text">haraka</span>
+    </a> 
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav> 
+    <a href="#home" class="active">Home</a> 
+    <a href="#services">Services</a> 
+    <a href="#resume">Resume</a> 
+    <a href="#portfolio">Portfolio</a> 
+    <a href="#contact">Contact</a> 
+    </nav> 
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+
+
+    </div>
+    <!-- home section -->
+     <section class="home active" id="home">
+        <div class="home-details">
+            <h1>Reddi Tharaka Ratna</h1> 
+            <h2>I'm a 
+                <span style="--i:4" data-text="UX/UI Designer">UX/UI Designer</span>
+                <span style="--i:3" data-text="Front-End Developer">Front-End Developer</span>
+                <span style="--i:2" data-text="Web Developer">Web Developer</span>
+                <span style="--i:1" data-text="Content Editor">Content Editor</span>
+            </h2>
+            <p>Motivated and detail-oriented UX/UI Designer, Front-End Developer, Web Developer, and Content Editor with a strong foundation in HTML, CSS, JavaScript, and responsive web design. Proficient in design tools like Figma with experience in creating wireframes, prototypes, and user-centered interfaces. Eager to contribute to a forward-thinking organization by applying creative design and coding skills. Committed to continuous learning, collaboration, and delivering high-quality digital experiences.</p>
+           <div class="btn-sci">
+            <a href="https://drive.google.com/uc?export=download&id=1g4SggEYrC9bnHRSsVvgTeoRDbE4jOzlB" class="btn" target="_blank">Download CV</a>
+            <div class="sci">
+                <a href="https://github.com/Tharak-06" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/reddi-tharaka-ratna-54586a292/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:princetharakreddi@gmail.com"><i class='bx bxl-gmail'></i></a>
+            </div>
+           </div>
+        </div>
+        <div class="home-img">
+            <div class="profile-container">
+                <div class="profile-image-wrapper">
+                    <div class="profile-border-1"></div>
+                    <div class="profile-border-2"></div>
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Reddi Tharaka Ratna - UX/UI Designer & Front-End Developer Profile Picture">
+                    </div>
+                    <div class="profile-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+     <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>UX/UI Design</h3>
+                <p>Creating user-centered designs with Figma, including wireframes, prototypes, and responsive interfaces for web and mobile platforms. Specialized in user research, persona creation, journey mapping, and design thinking processes.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Front-End Development</h3>
+                <p>Building responsive and interactive user interfaces using HTML5, CSS3, JavaScript, and Bootstrap. Focused on creating clean, semantic code and ensuring cross-browser compatibility and optimal user experience.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-world'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Developing complete websites from concept to deployment, combining design principles with technical implementation. Experience in creating portfolio sites, e-commerce layouts, and interactive web applications.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-edit'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Content Editing</h3>
+                <p>Providing content editing services with attention to detail, ensuring clear communication and engaging user experiences. Skilled in creating and refining content for web platforms and digital media.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-mobile-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>Creating responsive designs that work seamlessly across all devices - desktop, tablet, and mobile. Ensuring optimal user experience with flexible layouts and adaptive design principles.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-search'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                <h3>User Research</h3>
+                <p>Conducting user research through surveys, interviews, and usability testing to create data-driven design decisions. Skilled in analyzing user behavior and translating insights into improved user experiences.</p>
+            </div>
+        </div>
+     </section>
+
+    <!-- resume section -->
+    <section class="resume" id="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire me?</h2>
+                <p class="desc">As a motivated UX/UI Designer and Front-End Developer, I bring a unique combination of creative design skills and technical expertise. I'm passionate about creating user-centered digital experiences and staying updated with the latest design trends and web technologies to deliver exceptional results.</p>
+                <button class="resume-btn active">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">Projects</button>
+                <button class="resume-btn">Certifications</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail education active">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">My academic journey has provided me with a strong foundation in computer science and design principles. Here's my educational background that shaped my technical and creative expertise.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2022-Present</p>
+                            <h3>B.Tech in Computer Science & Engineering</h3>
+                            <p class="company">Sri Venkateswara College of Engineering & Technology (JNTU-GV)</p>
+                            <p>CGPA: 8.0. Specializing in Python Programming, C Language, Front-End Development, UI and UX Design, and Web Development with hands-on project experience.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020-2022</p>
+                            <h3>Intermediate (M.P.C)</h3>
+                            <p class="company">Santiniketan Junior College</p>
+                            <p>CGPA: 7.1. Completed pre-university program with focus on mathematics, physics, and chemistry, building analytical and problem-solving skills.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2019-2020</p>
+                            <h3>SSC (10th Grade)</h3>
+                            <p class="company">Government High School, Ponduru</p>
+                            <p>CGPA: 9.1. Completed secondary education with excellent grades, demonstrating strong academic foundation and dedication to learning.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Here are the key technologies, design tools, and soft skills I work with to create exceptional user experiences and deliver high-quality digital solutions.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-python'></i>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <div class="skill-text">C</div>
+                                <span>C Programming</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-html5'></i>
+                                <span>HTML5</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-css3'></i>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-javascript'></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-bootstrap'></i>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-figma'></i>
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-visual-studio'></i>
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-git'></i>
+                                <span>Git</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bxl-github'></i>
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <div class="skill-text">API</div>
+                                <span>Postman</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-palette'></i>
+                                <span>UI/UX Design</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-pencil'></i>
+                                <span>UX Design</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-brush'></i>
+                                <span>UI Design</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-mobile-alt'></i>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-user'></i>
+                                <span>User Research</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-sitemap'></i>
+                                <span>Wireframing</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-target-lock'></i>
+                                <span>Design Thinking Process</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-brain'></i>
+                                <span>Creative Thinking</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-bulb'></i>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+                        <div class="resume-item">
+                            <div class="skill-content">
+                                <i class='bx bx-group'></i>
+                                <span>Teamwork</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail projects">
+                    <h2 class="heading">My <span>Projects</span></h2>
+                    <p class="desc">Here are some of the key projects I've worked on, demonstrating my skills in web development, UI/UX design, programming, and creative problem-solving.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <h3>Calculator Application</h3>
+                            <p class="company">Python</p>
+                            <p>Developed a fully functional calculator application using Python with a clean interface for basic arithmetic operations, demonstrating programming logic and user input handling.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h3>Calculator UI Design</h3>
+                            <p class="company">Figma (UI/UX Project)</p>
+                            <p>Designed a modern, user-friendly calculator interface in Figma with intuitive button layouts, accessible design principles, and multiple themes for enhanced user experience.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h3>Amazon Clone</h3>
+                            <p class="company">HTML, CSS, JavaScript</p>
+                            <p>Developed a basic e-commerce front-end layout replicating Amazon's homepage structure and style, focusing on responsive design and user interface elements.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h3>Portfolio Website</h3>
+                            <p class="company">HTML, CSS, JavaScript</p>
+                            <p>Designed and built a personal portfolio showcasing skills, projects, and contact information with modern design principles and responsive layout.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h3>Food Restaurant Design</h3>
+                            <p class="company">Figma (UI/UX Project)</p>
+                            <p>Designed a responsive, user-friendly interface for a food delivery app/website, focusing on user experience and visual appeal.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <h3>Student Reading Material Platform</h3>
+                            <p class="company">Figma (UI/UX Project)</p>
+                            <p>Created a design prototype for an educational platform focused on student-friendly content browsing with intuitive navigation and accessibility features.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail certifications">
+                    <h2 class="heading">My <span>Certifications</span></h2>
+                    <p class="desc">Here are the professional certifications I've earned to enhance my skills in web development, UI/UX design, and programming technologies.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Web Development</h3>
+                            <p class="company">Apex Planet</p>
+                            <p>Completed comprehensive web development training covering modern web technologies, front-end frameworks, responsive design principles, and industry best practices for creating professional websites and web applications.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>UI & UX Design</h3>
+                            <p class="company">Juno School</p>
+                            <p>Specialized certification in user interface and user experience design, covering design thinking, wireframing, prototyping, user research, and creating intuitive digital experiences with industry-standard tools.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023</p>
+                            <h3>Python Programming</h3>
+                            <p class="company">Scaler</p>
+                            <p>Advanced Python programming certification covering data structures, algorithms, object-oriented programming, GUI development, and practical application building with hands-on project experience.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Figma Design</h3>
+                            <p class="company">Juno School</p>
+                            <p>Professional certification in Figma design tool, covering advanced prototyping, design systems, collaborative workflows, and creating pixel-perfect designs for web and mobile applications.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Python Developer</h3>
+                            <p class="company">CodeTech IT Solutions</p>
+                            <p>Professional Python developer certification focusing on real-world application development, software engineering best practices, debugging techniques, and industry-standard coding methodologies.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Mastery in Figma</h3>
+                            <p class="company">Juno School</p>
+                            <p>Advanced mastery certification in Figma covering expert-level design techniques, advanced prototyping, design system creation, collaborative workflows, animation and micro-interactions, and professional UI/UX design practices.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">I am a motivated and detail-oriented designer and developer with a passion for creating user-centered digital experiences. With expertise in UX/UI design and front-end development, I enjoy tackling creative challenges and continuously learning new technologies. Currently focused on expanding my skills in full-stack development, data analysis, and multimedia content creation.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Education <span>B.Tech (Ongoing)</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Specialization <span>UX/UI Design & Front-End Development</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Location <span>Ponduru, Srikakulam, Andhra Pradesh</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Availability <span>Open to Opportunities</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>princetharakreddi@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+91) 6304361965</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Interests <span>Full Stack Development, Data Analysis, Content Creation</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/project4.png" alt="Calculator Application in Python">
+            </div>
+            <div class="project-content">
+                <div class="project-number">01</div>
+                <h3>Calculator Application</h3>
+                <p>Developed a fully functional calculator application using Python with a clean interface for basic arithmetic operations. Features include addition, subtraction, multiplication, division, and error handling for robust user experience.</p>
+                <div class="tech">
+                    <span>Python</span>
+                    <span>Tkinter</span>
+                    <span>GUI Development</span>
+                    <span>Programming Logic</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn-link unavailable" data-status="Demo Coming Soon"><i class='bx bx-link-external'></i>Run Demo</a>
+                    <a href="#" class="btn-link coming-soon"><i class='bx bxl-github'></i>View Code</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/project1.jpg" alt="Amazon Clone E-commerce Website">
+            </div>
+            <div class="project-content">
+                <div class="project-number">02</div>
+                <h3>Amazon Clone</h3>
+                <p>Developed a basic e-commerce front-end layout replicating Amazon's homepage structure and style. Focused on responsive design, product layout, navigation, and user interface elements using modern web technologies.</p>
+                <div class="tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn-link unavailable" data-status="Demo Coming Soon"><i class='bx bx-link-external'></i>View Demo</a>
+                    <a href="#" class="btn-link coming-soon"><i class='bx bxl-github'></i>View Code</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/project5.jpg" alt="Food Restaurant UI/UX Design">
+            </div>
+            <div class="project-content">
+                <div class="project-number">03</div>
+                <h3>Food Restaurant Design</h3>
+                <p>Designed a responsive, user-friendly interface for a food delivery app/website using Figma. Focused on creating an intuitive user experience with modern design principles and seamless navigation flow.</p>
+                <div class="tech">
+                    <span>Figma</span>
+                    <span>UI/UX Design</span>
+                    <span>Prototyping</span>
+                    <span>User Research</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn-link unavailable" data-status="Figma Project"><i class='bx bx-palette'></i>View Design</a>
+                    <a href="#" class="btn-link unavailable" data-status="Design Project"><i class='bx bx-file'></i>Case Study</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/project2.jpg" alt="Student Reading Material Platform">
+            </div>
+            <div class="project-content">
+                <div class="project-number">04</div>
+                <h3>Student Reading Platform</h3>
+                <p>Created a design prototype for an educational platform focused on student-friendly content browsing. Designed with accessibility features, intuitive navigation, and user-centered interface for enhanced learning experience.</p>
+                <div class="tech">
+                    <span>Figma</span>
+                    <span>User Experience</span>
+                    <span>Wireframing</span>
+                    <span>Education Design</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn-link unavailable" data-status="Prototype Ready"><i class='bx bx-desktop'></i>View Prototype</a>
+                    <a href="#" class="btn-link unavailable" data-status="Design Documentation"><i class='bx bx-file-doc'></i>Documentation</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/portfoilo.png" alt="Personal Portfolio Website">
+            </div>
+            <div class="project-content">
+                <div class="project-number">05</div>
+                <h3>Portfolio Website</h3>
+                <p>Designed and built a personal portfolio showcasing skills, projects, and contact information. Features modern design principles, responsive layout, smooth animations, and optimized performance across all devices.</p>
+                <div class="tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                    <span>EmailJS</span>
+                </div>
+                <div class="project-links">
+                    <a href="#home" class="btn-link"><i class='bx bx-home'></i>You're Here!</a>
+                    <a href="https://github.com/Tharak-06/portfolio" target="_blank" class="btn-link"><i class='bx bxl-github'></i>View Code</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="project-image">
+                <img src="images/project3.jpg" alt="Landing Page Design">
+            </div>
+            <div class="project-content">
+                <div class="project-number">06</div>
+                <h3>Landing Page</h3>
+                <p>Designed and developed a modern, responsive landing page with clean layout and compelling call-to-action elements. Focused on user engagement, conversion optimization, and seamless user experience across all devices.</p>
+                <div class="tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>Responsive Design</span>
+                    <span>UI/UX</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="btn-link unavailable" data-status="Demo Coming Soon"><i class='bx bx-link-external'></i>View Demo</a>
+                    <a href="#" class="btn-link coming-soon"><i class='bx bxl-github'></i>View Code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Ready to bring your creative ideas to life? I'm passionate about creating exceptional user experiences and innovative design solutions. Let's collaborate on your next project and create something amazing together.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+91) 6304361965</p>
+
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>princetharakreddi@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Ponduru, Srikakulam, Andhra Pradesh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-box">
+                <form id="contact-form">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" name="from_name" placeholder="Full Name" required>
+                        <input type="email" name="from_email" placeholder="Email Address" required>  
+                        <input type="tel" name="phone" placeholder="Phone Number" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
